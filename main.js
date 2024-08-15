@@ -1,12 +1,12 @@
 let TestData = [
     {
         id: 1,
-        quiz: "Navoiy qachon tugilgan ?",
-        answer1: "1090",
-        answer2: "1021",
-        answer3: "1441",
-        answer4: "2002",
-        right_answer: "1441",
+        quiz: "Sening familyang ?",
+        answer1: "Malikova",
+        answer2: "Abdullayeva",
+        answer3: "Buranova",
+        answer4: "Ahmadjonov",
+        right_answer: "Malikova",
         ball: 10,
     },
     {
@@ -96,10 +96,10 @@ function Next() {
 function Boshi() {
     window.location.reload()
 }
-
+ 
 function reset() {
-    Option1.style.backgroundColor = "rgb(157, 157, 255)";
-    Option2.style.backgroundColor = "rgb(157, 157, 255)";
-    Option3.style.backgroundColor = "rgb(157, 157, 255)";
-    Option4.style.backgroundColor = "rgb(157, 157, 255)";
+    Option1.style.backgroundColor = "orange";
+    Option2.style.backgroundColor = "orange";
+    Option3.style.backgroundColor = "orange";
+    Option4.style.backgroundColor = "orange";
 }
